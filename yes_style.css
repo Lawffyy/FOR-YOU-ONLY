@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20240204/pngtree-beautiful-happy-valentine-s-day-elegant-wavy-background-image_15604631.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header_text {
+    font-family: 'Nunito';
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.paragraph_text {
+    font-family: 'Nunito';
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

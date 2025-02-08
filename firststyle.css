@@ -1,0 +1,34 @@
+body {
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20240204/pngtree-beautiful-happy-valentine-s-day-elegant-wavy-background-image_15604631.png);
+    background-size: cover;
+    background-attachment: fixed;
+
+ }
+ 
+ .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: last baseline;
+    margin-top: 140px;
+    margin-left: 20px;
+}
+
+.btn {
+    background-color: #ffffff;
+    color: rgb(233, 48, 48);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+.song {
+    position: center;
+    align-items: right;
+    place-items: center;
+}

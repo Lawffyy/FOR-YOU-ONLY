@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="firststyle.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jim+Nightshade&family=Mea+Culpa&family=Moon+Dance&display=swap" rel="stylesheet">
+    <body>
+        <style>
+            body{
+                display: grid;
+                place-items: center;
+                align-items: center;
+                padding-top: 50px;
+            }
+            .box{
+                height: 700px;
+                width: 700px;
+                border: 3px solid maroon;
+                color: var(--glow-color);
+                box-shadow: 0 0 1cm 0,25cm var(--glow-color);
+                background-color: black;
+                box-shadow: -50px rgb(160, 26, 26);
+            }
+
+            .NEXTButton{
+                align-items: center;
+                place-items: center;
+                
+            }
+            h1{
+                color: rgb(231, 212, 42); 
+                font-family: "Felipa", serif;
+                font-weight: 350;
+                font-style: normal; 
+                text-align: center;
+            }
+            p{
+                line-height: 50px;
+                color: white;
+                font-family: "Mea Culpa", serif;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 25px;
+                padding-left: 50px;
+            }
+            .indent{
+                text-indent: 30px;
+                line-height: 25px;
+                margin-right: 50px;
+                text-align: justify;
+            }
+            .audio-container {
+                display: flex;
+                justify-content: center;
+                align-items: center 
+            }
+        </style>
+        <div class="container">
+            <div class="box">
+                <h1>HAPPY VALENTINES DAY!</h1>
+                <p> To my dear Juliane, <br/> </p>
+                <p class="indent"> First, I want to thank you for being with me through thick and thin. Meron man tayong mga misunderstandings pero naaayos naman natin especially nung nakaraan. Busy rin sa school kaya di tayo madalas nakakapagkita. But, kahit  na ganon please know and remember na mahal na mahal kita at kahit ano man ang mangyari I will always choose you and love you. Belated Happy 29th month rin pala my love, icelebrate din natin yan. <br/> </p>
+                <p class="indent">So, I want to invite you to dinner this coming February 14, 2025 to celebrate the Valentines. We’ll make more memories full of love and spend time with each other. Miss na miss narin kita. I am so excited, makikita ko nanaman ang aking gorgeous girlfriend hihi mwaa. I love you always, my soulmate.</p>
+                <p>Yours lovingly,</p>
+                <p>Lawrence Cezar</p>
+                <div class = "buttons">
+                    <button class="btn" id = "yesButton" onclick="nextPage()">NEXT</button>
+                    <script>
+                        function nextPage() {
+                            window.location.href = "second.html";
+                        }
+                    </script> 
+        </div>
+        <div class="audio-container">
+            <audio controls>
+                <source src="song.mp3" type="audio/mp3"/>
+            </audio>
+        </div>
+    </div>
+    </body>
+</html>
